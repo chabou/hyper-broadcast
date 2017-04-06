@@ -1,6 +1,7 @@
 # hyper-broadcast
 Extension for [Hyper.app](https://hyper.is) to broadcast user inputs to multiple terms.
 
+![Screenshot](https://cloud.githubusercontent.com/assets/4137761/24778477/135b1200-1b2b-11e7-8f4a-16b64f66c0a3.gif)
 
 ## Install
 
