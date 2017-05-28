@@ -1,6 +1,6 @@
 {
   "name": "hyper-broadcast",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Extension for Hyper.app to boradcast user input to multiple terms",
   "main": "index.js",
   "scripts": {
@@ -49,5 +49,4 @@
     "lodash.merge": "^4.6.0",
     "mousetrap": "^1.6.0"
   }
-
 }
