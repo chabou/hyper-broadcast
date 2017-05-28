@@ -63,8 +63,11 @@ exports.middleware = store => next => action => {
 
 exports.decorateMenu = (menu) => {
   debug('decorateMenu');
+  const isMac = process.platform === 'darwin';
+  const menuLabel = isMac ? 'Shell' : 'File';
+
   return menu.map(menuItem => {
-    if (menuItem.label !== 'Shell') {
+    if (menuItem.label !== menuLabel) {
       return menuItem;
     }
 
