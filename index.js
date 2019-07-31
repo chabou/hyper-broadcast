@@ -3,10 +3,10 @@ const merge = require('lodash.merge');
 const defaultConfig = {
   debug: false,
   hotkeys: {
-    selectCurrentPane: 'CommandOrControl+Alt+U',
-    selectCurrentTabPanes: 'CommandOrControl+Alt+I',
-    selectAllPanes: 'CommandOrControl+Alt+O',
-    toggleCurrentPane: 'CommandOrControl+Alt+P'
+    selectCurrentPane: 'CommandOrControl+Alt+P',
+    selectCurrentTabPanes: 'CommandOrControl+Alt+T',
+    selectAllPanes: 'CommandOrControl+Alt+A',
+    toggleCurrentPane: 'CommandOrControl+Alt+B'
   },
   indicatorStyle: {
     position: 'absolute',
